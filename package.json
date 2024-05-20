@@ -18,7 +18,9 @@
     "flowbite-datepicker": "^1.2.6",
     "postcss": "^8.4.38",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
+    "vue-datepicker-ui": "^3.1.1",
+    "vue-router": "^4.3.2",
+    "vue-scrollto": "^2.20.0",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

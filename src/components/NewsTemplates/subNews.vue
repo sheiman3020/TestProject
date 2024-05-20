@@ -6,10 +6,8 @@
   <div
     class="p-2 bg-transparent justify-evenly flex flex-wrap sm:flex-col md:flex-col lg:flex-row"
   >
-    <div
-      v-for="headline in mainTopHeadlines"
-      class="flex flex-col items-center mb-6 rounded-lg shadow sm:fl md:flex-row md:max-w-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 lg:max-w-xl"
-    >
+    <div 
+    v-for="headline in mainTopHeadlines" class="flex flex-col items-center mb-6 rounded-lg shadow sm:fl md:flex-row md:max-w-lg dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 lg:max-w-xl">
       <div class="flex flex-col justify-between p-4 leading-normal">
         <h5
           class="mb-2 text-xl md:flex font-bold tracking-tight text-gray-900 dark:text-white"

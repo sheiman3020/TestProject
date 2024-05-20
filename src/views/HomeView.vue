@@ -1,4 +1,5 @@
 <template>
+  
   <main class="dark:bg-gray-800">
     <header
       :class="[
@@ -6,11 +7,14 @@
         { 'bg-pink-500/90  shadow-lg': isScrolled },
       ]"
     >
-      <headerComp></headerComp>
+   
+      <headerComp/>
     </header>
+    
     <div class="dark:bg-gray-800 flex relative z-20 items-center">
-      <heroSection />
+     
     </div>
+    <heroSection />
     <div>
       <subNews />
       <techNews />
@@ -24,7 +28,7 @@
           >
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-              >.ReadMe</span
+              ></span
             >
           </a>
           <ul
@@ -52,7 +56,7 @@
         <span
           class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
           >© 2024
-          .ReadMe
+          News
           All Rights Reserved.</span
         >
       </div>
@@ -65,6 +69,7 @@ import headerComp from "@/components/hersection/headerComp.vue";
 import heroSection from "@/components/hersection/heroSection.vue";
 import techNews from "@/components/NewsTemplates/techNews.vue";
 import subNews from "@/components/NewsTemplates/subNews.vue";
+
 import { ref, onMounted } from "vue"; //hit the page
 import api from "@/services/api";
 const pageData = ref([]);
