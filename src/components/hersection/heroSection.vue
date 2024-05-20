@@ -27,5 +27,5 @@
 </template>
 <script setup>
 // import newspaper from "@/assets/Editorial commision-bro.png";
-import newspaper from "@/assets/news.png";
+import newspaper from "@/assets/news.png"; //test
 </script>
